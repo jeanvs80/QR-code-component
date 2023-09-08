@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.qr-code-container {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.qr-code-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.qr-code-container p {
+    margin-top: 10px;
+    font-size: 18px;
+}
